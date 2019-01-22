@@ -1,6 +1,3 @@
-[submodule "serverPy"]
-	path = serverPy
-	url = https://github.com/Furl0w/serverPy
 [submodule "serverAuth"]
 	path = serverAuth
 	url = https://github.com/Furl0w/serverAuth
