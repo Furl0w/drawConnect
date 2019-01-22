@@ -4,3 +4,6 @@
 [submodule "serverDB"]
 	path = serverDB
 	url = https://github.com/Furl0w/serverDB
+[submodule "serverPyV2"]
+	path = serverPyV2
+	url = https://github.com/Furl0w/serverPyV2
