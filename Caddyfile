@@ -6,4 +6,5 @@
         websocket
     }
     proxy /py localhost:5001
+    proxy /static localhost:3032
 }

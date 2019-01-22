@@ -54,6 +54,11 @@ services:
       DB_SERVICE_PORT: "3031"
     env_file:
     - secret.env
+  
+  serverstatic:
+    build: ./serverStatic
+    ports:
+      - "3032:3032"
 
 volumes:
   mongoData:

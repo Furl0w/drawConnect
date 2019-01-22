@@ -7,3 +7,6 @@
 [submodule "serverPyV2"]
 	path = serverPyV2
 	url = https://github.com/Furl0w/serverPyV2
+[submodule "serverStatic"]
+	path = serverStatic
+	url = https://github.com/Furl0w/serverStatic
