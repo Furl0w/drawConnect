@@ -1,6 +1,9 @@
+#Used in local configuration put your local ip in place
 
-localhost:9090 {
-    tls localhost.pem localhost-key.pem
-    proxy /front localhost:3030
-    proxy /mobile localhost:5000
+192.168.137.136:9090 {
+    tls off
+    proxy /auth localhost:3030 {
+        websocket
+    }
+    proxy /py localhost:5001
 }
